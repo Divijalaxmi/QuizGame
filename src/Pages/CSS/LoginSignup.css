@@ -1,0 +1,81 @@
+
+
+.loginsignup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* background-attachment: fixed; */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* margin-top: 100px; */
+  padding-top: 0px;
+}
+
+.loginsignup-container {
+  
+  background-color: #6bb6d8;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  height: 450px;
+  padding: 3rem;
+  
+  gap: 10px;
+
+}
+
+
+.loginsignup-fields input {
+    /* margin-top: 10px; */
+  width: 350px;
+  height: 27px;
+  margin-left:20px;
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+  
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.loginsignup-agree {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 30px;
+  margin-left: 36px;
+  font-size: 16px;
+}
+
+
+
+.mainHead{
+    /* margin-top: 10px; */
+    /* padding-top: -20px; */
+    margin-bottom: 30px;
+    font-size: 300px;
+    
+}
+
+
+.close-btn {
+  
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  background-color: #f60b0b;
+  margin-left:430px; 
+  margin-top: -250px;
+  color: white;
+  padding-left: 20px;
+  margin-bottom: -400px;
+
+}
